@@ -89,7 +89,7 @@ $(window).load(function() {
 		touch: false,
 		pauseOnHover: true,
 		start: function() {
-			$.waypoints('refresh');
+			$.waypoints('refresh');  
 		}
 	});
 
