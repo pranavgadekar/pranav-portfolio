@@ -35,11 +35,12 @@
         =========================== -->
         <header id="home">
 		    <!-- creative menu -->
+            
             <div class="container-fluid">
               <div class="row">
                 <div class="menu-wrap">
 				<nav class="menu">
-				    <!-- Menu Links -->
+				    
 					<div class="icon-list">
 						<a href="#home"><i class="fa fa-fw fa-home"></i><span>Home</span></a>
 						<a href="#service"><i class="fa fa-fw fa-quote-left"></i><span>About me</span></a>
@@ -48,9 +49,10 @@
 					</div>
 				</nav>
 			    </div>
-			    <button class="menu-button" id="open-button"></button><!-- menu button -->
-              </div><!--/row-->
-            </div><!--/container-->
+			    <button class="menu-button" id="open-button"></button>
+              </div>
+            </div>        
+            
 		  <!-- Header Image -->
           <section class="hero" id="hero">
             <div class="container" style="height:400px">
@@ -81,8 +83,6 @@
         =========================== -->
 		
 		
-		
-		
 		<!-- ==========================
         ABOUT SECTION  
         =========================== -->
@@ -98,8 +98,6 @@
             </div>
           </div>
         </section>
-
-
 
 
 <!-- ==========================
@@ -199,21 +197,24 @@
                         <p class="justify">A prototype of Amazon Dynamo like DB implemented in a distibuted Android environment. Implemented a set of methods which when put together make this system a highly-available structured storage. It has the properties of both a database to store key-values as well as a distibuted hash table (DHTs). The features provided in this storage primarily involved Partitioning, Chain Replication and Failure Handling. Connection between various android AVDs done using TCP sockets. Major focus given on correctness rather than performance.
                         <br><a = href="https://www.android.com" target="_blank">Android</a> <a = href="https://java.com/en/" target="_blank">Java</a> <a = href="http://docs.oracle.com/javase/tutorial/networking/sockets/" target="_blank">Sockets</a><br></p>
                     </div>
-          <!-- Blog Entry 3 -->          
+          <!-- Blog Entry 3 -->
+                   <div class="col-md-4 wp4 delay-1s">
+                    <br>
+                      <h2>K Means Clustering of Genomic Data using Map Reduce <br>(Oct 2016 - Nov 2016)<br></h2><!-- Headline -->
+                        <p class="justify">Implemented K Means clustering on Genomic Data using Map Reduce in Hadoop (Single Node) to find out similar genes based on expression values. Once clustering was done, calculated external index using the Jaccard Coefficient. The original data set and the clustering results obtained were visualized by doing Principal Component Analysis (PCA) in python using the library sklearn.decomposition.PCA. <br><a href="https://www.java.com/en/" target="_blank">Java</a> <a = href="https://hadoop.apache.org/" target="_blank">Hadoop</a> <a = href="https://en.wikipedia.org/wiki/MapReduce" target="_blank">MapReduce</a> <a = href="http://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html" target="_blank">sklearn.decomposition.PCA</a> <a = href="https://www.python.org/" target="_blank">Python</a><br></p><!-- Description-->
+                    </div>
+                           
+              </div>
+              
+              <div class="row">
+            <!-- Blog Entry 4 -->
+                      
                     <div class="col-md-4 wp4 delay-05s">
                     <br>
                       <h2>Determining Circles in given Image using Hough Transform<br>(Sep 2015 - Dec 2015)<br></h2><!-- Headline -->
                         <p class="justify">The Hough Transform for circle determination algorithm was used in this project in order to determine circles in a given image. The accuracy of this algorithm is found to be 100%. Performance of this algorithm is a bit slow because of the use of a 3D accumulator array. The circles were also determined using the Randomized Circle Detection (RCD) algorithm given in this <a href="ftp://ivpml14.csie.ntust.edu.tw/An%20Efficient%20Randomized%20Algorithm%20for%20Detecting%20Circles.pdf" target="_blank">paper</a>. This algorithm does not use a accumulator array and hence occupies less space and performes faster than the traditional approach. The accuracy is however not 100%.<br><a = href="https://www.python.org/" target="_blank">Python</a> <a = href="http://www.numpy.org/" target="_blank">NumPy</a> <a = href="http://opencv.org/" target="_blank">OpenCV</a><br></p><!-- Description -->
                     </div>
-              </div>
-              
-              <div class="row">
-            <!-- Blog Entry 4 -->
-                    <div class="col-md-4 wp4">
-                    <br>
-                      <h2>Addressing NameNode Scalability Issue in Hadoop Distributed File System<br>(Aug 2013 – Jun 2014)<br></h2>
-                        <p class="justify">A research based project which aimed at restructing the architecture of traditional Hadoop filesystem. The target was to scale the size of NameNode using a cache like approach. We set up a Hadoop cluster consisting of three DataNodes and one NameNode. All the analysis was carried out on this cluster. We set a threshold value based on which data present in the NameNode was partitoned and the unused metadata can be moved to secondary memory. A research paper based on this is published in <a href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7033344&url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel7%2F7031482%2F7033273%2F07033344.pdf%3Farnumber%3D7033344" target="_blank"><i>IEEE Xplore Digital Library.</i></a>. To take a view at this paper <a href="paper/research-paper.pdf" target="_blank">click here</a> <br><a = href="https://hadoop.apache.org/" target="_blank">Hadoop</a> <a = href="https://en.wikipedia.org/wiki/MapReduce" target="_blank">MapReduce</a> <a = href="https://www.java.com/en/" target="_blank">Java</a> <a = href="https://maven.apache.org/" target="_blank">Maven</a>  <a = href="https://www.linux.com/" target="_blank">Linux</a><br> </p><!-- Description -->
-                    </div>
+                    
           <!-- Blog Entry 5 -->
                     
                     <div class="col-md-4 wp4">
@@ -249,7 +250,11 @@
                       <p class="justify">Enterprise application build in Amdocs, Inc. This application was basically a Order Capturing and Management tool that can be used by other organizations in order to keep a track of current VoIP and MIS orders. I played a role as a back-end developer in this project. Exposed and consumed SOAP Web Services. Worked in building different process flows to carry out automation. Wrote shell scripts for building and deploying releases. Also queries to extract data as per client needs.<br><a = href="http://lucene.apache.org/solr/" target="_blank">Apache Solr</a> <a = href="https://www.java.com/en/" target="_blank">Java</a> <a href = "https://en.wikipedia.org/wiki/SOAP" target="_blank">SOAP</a> <a = href="https://maven.apache.org/" target="_blank">Maven</a> <a = href="http://junit.org/" target="_blank">Junit</a> <a = href="http://www.activevos.com/" target="_blank">ActiveVOS</a> <a = href="https://www.perforce.com/" target="_blank">Perforce</a> <a = href="https://subversion.apache.org/" target="_blank">Apache Subversion(SVN)</a> <a = href="http://www.oracle.com/" target="_blank">Oracle 11g</a> <a = href="https://www.linux.com/" target="_blank">Linux</a><br></p><!-- Description-->
                     </div>
           <!-- Blog Entry 9 -->
-                    
+                    <div class="col-md-4 wp4">
+                    <br>
+                      <h2>Addressing NameNode Scalability Issue in Hadoop Distributed File System<br>(Aug 2013 – Jun 2014)<br></h2>
+                        <p class="justify">A research based project which aimed at restructing the architecture of traditional Hadoop filesystem. The target was to scale the size of NameNode using a cache like approach. We set up a Hadoop cluster consisting of three DataNodes and one NameNode. All the analysis was carried out on this cluster. We set a threshold value based on which data present in the NameNode was partitoned and the unused metadata can be moved to secondary memory. A research paper based on this is published in <a href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7033344&url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel7%2F7031482%2F7033273%2F07033344.pdf%3Farnumber%3D7033344" target="_blank"><i>IEEE Xplore Digital Library.</i></a>. To take a view at this paper <a href="paper/research-paper.pdf" target="_blank">click here</a> <br><a = href="https://hadoop.apache.org/" target="_blank">Hadoop</a> <a = href="https://en.wikipedia.org/wiki/MapReduce" target="_blank">MapReduce</a> <a = href="https://www.java.com/en/" target="_blank">Java</a> <a = href="https://maven.apache.org/" target="_blank">Maven</a>  <a = href="https://www.linux.com/" target="_blank">Linux</a><br> </p><!-- Description -->
+                    </div>
               </div>
             
           </div>
